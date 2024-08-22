@@ -1,0 +1,49 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+}
+
+.rectangle {
+  width: 40vw;
+  background-color: black;
+  height: 35px;;
+  opacity: 70%;
+  position: absolute;
+  top: 190px;
+}
+
+.photo-container > h3 {
+  width: 40vw;
+  color: white;
+  text-align: center;
+  padding: 5px 0px;
+  position: absolute;
+  top: 192px;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.photo-container > p {
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 30px;
+  width: 40vw;
+  text-align: center;
+  text-shadow: 6px -1px 12px rgba(0, 0, 0, 0.6);
+}
+
+.photo {
+  width: 40vw;
+}
+
+.form-container {
+  background-color: rgb(194, 127, 127);
+  width: 60vw;
+}

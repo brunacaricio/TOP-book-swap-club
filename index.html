@@ -10,26 +10,109 @@
   <div class="container">
     <div class="photo-container">
       <div class="rectangle"></div>
-      <h3>Join our Swap Club!</h3>
+      <h3 class="raleway-p-form">Join our Swap Club!</h3>
       <img src="books.jpg" alt="girl with books" class="photo">
       <p>Photo <u>Nathalia Rosa</u> on <u>Unsplash</u></p>
     </div>
     <div class="form-container">
-      <div class="form">
+      <div class="form raleway-p-form">
         <form action="" method="post">
-          <div>
-            <label for="first_name">FIRST NAME:</label>
-            <input type="text" id="first_name" name="first_name">
+          <h1>Tell us more about you!</h1>
+          <div class="row-form part-one">
+            <div>
+              <label for="first_name">First name:</label>
+              <input type="text" id="first_name" name="first_name" required>
+            </div>
+
+            <div>
+              <label for="family_name">Family name:</label>
+              <input type="text" id="family_name" name="family_name" required>
+            </div>
           </div>
 
-          <div>
-            <label for="family_name">FAMILY NAME:</label>
-            <input type="text" id="family_name" name="family_name">
+          <div class="row-form part-one">
+            <div>
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+              <label for="phone">Phone number:</label>
+              <input type="tel" id="phone" name="phone_number" required>
+            </div>
           </div>
 
-          
+          <div class="row-form part-one">
+            <div>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+
+            <div>
+              <label for="password">Confirm password:</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+          </div>
+
+          <div class="row-form part-two">
+            <div>
+              <p>Favorite genres:</p>
+              <div class="raleway-lighter">
+                <div>
+                  <input type="checkbox" id="fantasy" name="genre" value="fantasy">
+                  <label for="fantasy">Fantasy</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="biography" name="genre" value="biography">
+                  <label for="biography">Biography</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="self-help" name="genre" value="self-help">
+                  <label for="self-help">Self-help</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="romance" name="genre" value="romance">
+                  <label for="romance">Romance</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="science-fiction" name="genre" value="science-fiction">
+                  <label for="science-fiction">Science-fiction</label>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p>Preferred book format:</p>
+              <div class="raleway-lighter">
+                <div>
+                  <input type="radio" id="paperback" name="preferred_format" value="paperback">
+                  <label for="paperback">Paperback</label>
+                </div>
+                <div>
+                  <input type="radio" id="hardcover" name="preferred_format" value="hardcover">
+                  <label for="hardcover">Hardcover</label>
+                </div>
+                <div>
+                  <input type="radio" id="ebook" name="preferred_format" value="ebook">
+                  <label for="ebook">Ebook</label>
+                </div>
+                <div>
+                  <input type="radio" id="any" name="preferred_format" value="any">
+                  <label for="any">Any</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="submit">Create account</button>
+
+
+
         </form>
       </div>
+
     </div>
   </div>
 </body>

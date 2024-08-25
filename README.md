@@ -14,9 +14,10 @@ The project consists of the following files:
 
 index.html: Contains the HTML structure of the signup form.
 styles.css: Contains the CSS styles to make the form look nice and clean.
-Technologies Used
+
+Technologies Used:
 HTML: For the basic structure and form elements.
 CSS: For styling the form and creating a user-friendly interface.
 
-Contributing: 
+Contributing:
 If you want to contribute to this project, feel free to fork the repository and submit a pull request.

@@ -1,4 +1,4 @@
-Simple Signup Form:
+<b>Simple Signup Form:</b>
 This is a simple signup form created using just HTML and CSS. The form utilizes basic HTML validations to ensure user input is correct. This project is an example of a minimalistic approach to form creation without using any JavaScript or backend integrations.
 
 Features:

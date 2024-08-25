@@ -12,27 +12,28 @@
       <div class="rectangle"></div>
       <h3 class="raleway-p-form">Join our Swap Club!</h3>
       <img src="books.jpg" alt="girl with books" class="photo">
-      <p>Photo <u>Nathalia Rosa</u> on <u>Unsplash</u></p>
+      <p>Photo <a href="https://unsplash.com/@nathaliarosa" target="_blank">Nathalia Rosa</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
     </div>
     <div class="form-container">
       <div class="form raleway-p-form">
         <form action="" method="post">
           <h1>Tell us more about you!</h1>
+          <hr>
           <div class="row-form part-one">
             <div>
-              <label for="first_name">First name:</label>
+              <label for="first_name">*First name:</label>
               <input type="text" id="first_name" name="first_name" required minlength="3">
             </div>
 
             <div>
-              <label for="family_name">Family name:</label>
+              <label for="family_name">*Family name:</label>
               <input type="text" id="family_name" name="family_name" required minlength="3">
             </div>
           </div>
 
           <div class="row-form part-one">
             <div>
-              <label for="email">E-mail:</label>
+              <label for="email">*E-mail:</label>
               <input type="email" id="email" name="email" required>
             </div>
 
@@ -44,19 +45,18 @@
 
           <div class="row-form part-one">
             <div>
-              <label for="password">Password:</label>
+              <label for="password">*Password:</label>
               <input type="password" id="password" name="password" required minlength="3">
             </div>
 
             <div>
-              <label for="password">Confirm password:</label>
+              <label for="password">*Confirm password:</label>
               <input type="password" id="password" name="password" required minlength="3">
             </div>
           </div>
-
           <div class="row-form part-two">
             <div>
-              <p>Favorite genres:</p>
+              <p class="raleway-p-form">Favorite genres:</p>
               <div class="raleway-lighter">
                 <div>
                   <input type="checkbox" id="fantasy" name="genre" value="fantasy">
@@ -85,7 +85,7 @@
               </div>
             </div>
             <div>
-              <p>Preferred book format:</p>
+              <p class="raleway-p-form">Preferred book format:</p>
               <div class="raleway-lighter">
                 <div>
                   <input type="radio" id="paperback" name="preferred_format" value="paperback">
@@ -106,6 +106,7 @@
               </div>
             </div>
           </div>
+          <hr>
           <button type="submit">Create account</button>
 
 

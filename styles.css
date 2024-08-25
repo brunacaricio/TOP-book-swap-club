@@ -33,6 +33,15 @@
   top: 190px;
 }
 
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+a {
+  color: white;
+}
+
 .photo-container > h3 {
   width: 40vw;
   color: white;
@@ -61,7 +70,7 @@
   background-color: rgb(255, 255, 255);
   width: 60vw;
   padding: 15px;
-  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .row-form {
@@ -86,12 +95,23 @@
   margin-top: 2px;
 }
 
+.part-two p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
 button {
   padding: 10px 20px;
   background-color: green;
-  margin-top: 15px;
   border: none;
   border-radius: 8px;
+  font-size: 1rem;
   color: white;
   cursor: pointer;
   font-family: "Raleway", sans-serif;
@@ -103,20 +123,20 @@ button:hover {
 }
 
 input {
-  padding: 10px 5px;
-  margin-top: 2px;
+  padding: 8px 5px;
+  margin-top: 3px;
   border: 1px solid #E5E7EB;
   border-radius: 5px;
 }
 
 input:focus {
-  border-color: rgb(171, 138, 202);
+  outline: 2px solid #a6888e2b;
 }
 
 input:invalid {
-  border-color: red;
+  outline-color: red;
 }
 
 input:valid {
-  border-color: green;
+  outline-color: green;
 }
